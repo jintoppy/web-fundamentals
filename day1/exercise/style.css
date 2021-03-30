@@ -1,0 +1,22 @@
+html {
+    font-size: 16px;
+}
+
+h1 {
+    color: blue;
+}
+
+
+#container {
+    margin: 1rem;
+    padding: 10px;
+    border: 5px solid red;
+}
+
+.header {
+    background-color: green;
+}
+
+#container span {
+    color: yellow;
+}

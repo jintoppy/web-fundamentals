@@ -1,0 +1,31 @@
+.box {
+    background-color: bisque;
+}
+
+#red-text {
+    color: red;
+}
+
+#box2 {
+    border: 5px solid green;
+}
+
+#box3-wrapper {
+    font-size: 12px;
+}
+
+#box3 {
+    border: 1rem solid green;
+}
+
+html {
+    font-size: 14px;
+}
+
+#box4-wrapper {
+    font-size: 12px;
+}
+
+#box4 {
+    border: 1em solid green;
+}

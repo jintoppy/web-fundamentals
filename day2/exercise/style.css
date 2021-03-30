@@ -1,0 +1,22 @@
+#outer {
+    border: 1px solid royalblue;
+    margin: 10px;
+    padding: 10px;
+}
+
+#outer p,
+#nth-selector-trial,
+#nth-selector-trial1 {
+    border: 1px solid gray;
+    margin: 10px;
+    padding: 10px;
+}
+
+a:active {
+    color: green;
+    font-size: 20px;
+}
+
+a:visited {
+    border: 2px solid blue;
+}
