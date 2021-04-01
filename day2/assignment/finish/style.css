@@ -16,8 +16,8 @@ p:nth-of-type(2) {
     background-color: yellow;
 }
 
-.container:before,
-.container:after {
+.container::before,
+.container::after {
     content: "I am created by CSS. I got padding 10px, background color orange and border 2px solid green";
     display: block;
     padding: 10px;
