@@ -1,0 +1,29 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    animation: myPath 2s;
+}
+
+
+@keyframes myPath {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    25% {
+        transform: translate(200px, 0);
+    }
+
+    50% {
+        transform: translate(200px, 200px);
+    }
+
+    75% {
+        transform: translate(0px, 200px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}

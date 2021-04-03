@@ -1,0 +1,24 @@
+#box1,
+#box2 {
+    border: 1px solid #000;
+
+    width: 100px;
+    height: 100px;
+}
+
+#box1 {
+    background-color: orangered;
+
+}
+
+#box2 {
+    background-color: chartreuse;
+}
+
+.box p {
+    background-color: aqua;
+}
+
+.box span {
+    background-color: blueviolet;
+}

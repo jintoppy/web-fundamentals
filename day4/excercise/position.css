@@ -1,0 +1,20 @@
+.container {
+    border: 2px solid blue;
+    margin: 10px;
+    padding: 10px;
+    /* position: relative; */
+}
+
+#box1 {
+    margin: 10px;
+    padding: 10px;
+    background-color: green;
+    /* position: relative; */
+}
+
+#box2 {
+    margin: 10px;
+    padding: 10px;
+    background: gold;
+    /* position: absolute; */
+}
