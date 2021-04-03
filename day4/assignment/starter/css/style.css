@@ -34,10 +34,13 @@ html {
     box-sizing: border-box;
     /* 1rem = 10px, 10px/16px = 62.5% */
     font-size: 62.5%;
+}
 
-    @media only screen and (max-width: $bp-large) {
+@media only screen and (max-width: 400px) {
+    html {
         font-size: 50%;
     }
+
 }
 
 body {

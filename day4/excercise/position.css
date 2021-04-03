@@ -2,19 +2,39 @@
     border: 2px solid blue;
     margin: 10px;
     padding: 10px;
-    /* position: relative; */
+    position: relative;
 }
 
 #box1 {
     margin: 10px;
     padding: 10px;
     background-color: green;
-    /* position: relative; */
+    position: relative;
+    z-index: 3;
 }
 
 #box2 {
-    margin: 10px;
     padding: 10px;
     background: gold;
-    /* position: absolute; */
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    z-index: 2;
+}
+
+.container1 {
+    border: 2px solid blue;
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    height: 150px;
+}
+
+#box3 {
+    padding: 10px;
+    background: #445566;
+    position: absolute;
+    top: -50px;
+    left: 20px;
+    z-index: 0;
 }

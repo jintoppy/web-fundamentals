@@ -1,29 +1,59 @@
+body {
+    background: rgb(72, 69, 120);
+    background: linear-gradient(90deg, rgba(72, 69, 120, 1) 0%, rgba(87, 186, 147, 1) 41%, rgba(0, 212, 255, 1) 100%);
+}
+
 .box {
     width: 100px;
     height: 100px;
     background-color: blue;
-    animation: myPath 2s;
+    /* transform: translate(0, 0); */
+
+    /* animation: myPath 5s;
+    position: relative; */
+    transition: all 2s;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.box:hover {
+    transform: translate(100px, 100px);
+    background-color: green;
 }
 
 
 @keyframes myPath {
     0% {
-        transform: translate(0, 0);
+        left: 0;
+        top: 0;
+        background-color: red;
+        /* transform: translate(0, 0); */
     }
 
     25% {
-        transform: translate(200px, 0);
+        left: 200px;
+        top: 0;
+        background-color: green;
+        /* transform: translate(200px, 0); */
     }
 
     50% {
-        transform: translate(200px, 200px);
+        left: 200px;
+        top: 200px;
+        background-color: orange;
+        /* transform: translate(200px, 200px); */
     }
 
     75% {
-        transform: translate(0px, 200px);
+        left: 0;
+        top: 200px;
+        background-color: magenta;
+        /* transform: translate(0px, 200px); */
     }
 
     100% {
-        transform: translate(0px, 0px);
+        left: 0;
+        top: 0;
+        background-color: blue;
+        /* transform: translate(0px, 0px); */
     }
 }

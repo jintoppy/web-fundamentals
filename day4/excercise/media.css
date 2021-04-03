@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#box1,
+#box2 {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid green;
+    display: inline-block;
+}
+
+#box1 {
+    background-color: beige;
+}
+
+#box2 {
+    background-color: blueviolet;
+}
+
+@media screen and (min-width: 800px) {
+
+    #box1,
+    #box2 {
+        width: 48%;
+    }
+}
