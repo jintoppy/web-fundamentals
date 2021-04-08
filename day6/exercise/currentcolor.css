@@ -1,0 +1,12 @@
+.parent {
+    color: blue;
+    border: 1px solid currentColor;
+}
+
+.parent:hover {
+    color: red;
+}
+
+/* .circle {
+    fill: currentColor;
+} */

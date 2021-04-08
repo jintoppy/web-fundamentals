@@ -1,0 +1,19 @@
+.item {
+    background-color: #e91e63;
+    margin: 10px;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.item:last-of-type {
+    color: green;
+}
+
+div:not(.item:last-of-type) {
+    color: yellow;
+}
+
+p:not(.item1 p) {
+    font-size: 100px;
+}
