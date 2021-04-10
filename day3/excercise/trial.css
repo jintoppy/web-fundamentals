@@ -1,0 +1,39 @@
+.container {
+    color: red;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid red;
+}
+
+.box {
+    background-color: bisque;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.box1 {
+    background-color: green;
+}
+
+.box2 {
+    background-color: yellow;
+}
+
+@media screen and (max-width: 400px) {
+    .container {
+        color: green;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 800px) and (min-width: 400px) {
+    .container {
+        flex-direction: row;
+    }
+
+    .box1 {
+        order: 2;
+    }
+}
