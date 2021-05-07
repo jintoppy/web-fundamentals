@@ -26,7 +26,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _uti
   \**********************/
 /***/ ((__unused_webpack_module, exports) => {
 
-eval("exports.add = (x, y) => {\n    return x + y;\n};\n\nexports.subtract = (x, y) => {\n    return x - y;\n};\n\n//# sourceURL=webpack://day16-webpack-quiz/./src/utils.js?");
+eval("exports.add = (x, y) => {\n    return x + y;\n};\n\nexports.subtract = (x, y) => {\n    return x - y;\n};\n\n//export default add\n// import addFn from './utils';\n//exports.add = \n//exports.subtract = \n//import { add, subtract } from './utils';\n\n\n\n//# sourceURL=webpack://day16-webpack-quiz/./src/utils.js?");
 
 /***/ })
 
